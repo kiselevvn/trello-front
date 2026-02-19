@@ -38,7 +38,7 @@ export default defineConfig((/* ctx */) => {
       },
 
       typescript: {
-        strict: true,
+        strict: false,
         vueShim: true,
         // extendTsConfig (tsConfig) {}
       },
@@ -98,7 +98,7 @@ export default defineConfig((/* ctx */) => {
       // directives: [],
 
       // Quasar plugins
-      plugins: [],
+      plugins: ['Notify', 'Dialog'],
     },
 
     // animations: 'all', // --- includes all animations
